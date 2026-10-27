@@ -18,7 +18,7 @@ def average_by_subject(rows):
         total = 0
         for row in rows:
             total += int(row[subject])
-        averages[subject] = total / len(SUBJECTS)
+        averages[subject] = total / len(rows)
     return averages
 
 
